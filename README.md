@@ -75,15 +75,15 @@ Selanjutnya, dilakukan analisis mendalam pada model SVM
 
 **Hasil :**
 
-Berdasarkan hasil model SVM baik melalui based model, hyperparameter tuning tanpa SMOTE dan hyperparameter tuning dengan SMOTE. Menghasilkan berbagai macam variasi performa. Namun jika strategi bisnis ingin menangkap sebanyak mungkin pelanggan yang akan churn maka dapat dilihat dengan hasil recall tinggi (89%) serta gap recallnya tidak terlalu jauh yaitu 6% (hal ini dapat dilihat model dengan tuned SMOTE lebih unggul dibandingkan yang lain) meskipun precision nya mencapai 69% namun gapnya tidak terlalu jauh beda (hanya 3%) dibandingkan model yang lain yang gapnya lebih dari 6%. Dengan kata lain, model ini lebih proaktif dalam mengidentifikasi pelanggan berisiko, meskipun ada peningkatan kasus di mana model salah memprediksi pelanggan yang sebenarnya tidak akan churn (false positive).
+ Berdasarkan hasil model SVM baik melalui based model, hyperparameter tuning tanpa SMOTE dan hyperparameter tuning dengan SMOTE. Menghasilkan berbagai macam variasi performa. Namun jika strategi bisnis ingin menangkap sebanyak mungkin pelanggan yang akan churn maka dapat dilihat dengan hasil recall tinggi (89%) serta gap recallnya tidak terlalu jauh yaitu 6% (hal ini dapat dilihat model dengan tuned SMOTE lebih unggul dibandingkan yang lain) meskipun precision nya mencapai 69% namun gapnya tidak terlalu jauh beda (hanya 3%) dibandingkan model yang lain yang gapnya lebih dari 6%. Dengan kata lain, model ini lebih proaktif dalam mengidentifikasi pelanggan berisiko, meskipun ada peningkatan kasus di mana model salah memprediksi pelanggan yang sebenarnya tidak akan churn (false positive).
 
 **Prediksi terhadap churn :**
 
-Model ini berhasil mengidentifikasi 251 pelanggan yang benar-benar akan churn, dan hanya salah memprediksi 30 kasus churn sebagai pelanggan yang tidak akan churn (false negative). Selain itu, model juga salah memprediksi 109 pelanggan yang sebenarnya tidak akan churn sebagai pelanggan yang berisiko (false positive). Secara keseluruhan, dengan recall sebesar 89.3%, model ini sangat cocok untuk strategi bisnis yang memprioritaskan identifikasi sebanyak mungkin pelanggan yang berpotensi churn.
+ Model ini berhasil mengidentifikasi 251 pelanggan yang benar-benar akan churn, dan hanya salah memprediksi 30 kasus churn sebagai pelanggan yang tidak akan churn (false negative). Selain itu, model juga salah memprediksi 109 pelanggan yang sebenarnya tidak akan churn sebagai pelanggan yang berisiko (false positive). Secara keseluruhan, dengan recall sebesar 89.3%, model ini sangat cocok untuk strategi bisnis yang memprioritaskan identifikasi sebanyak mungkin pelanggan yang berpotensi churn.
 
-**Perspektif kurva ROC-AUC terhadap churn**
+**Perspektif kurva ROC-AUC terhadap churn :** 
 
-Model SVM menunjukkan performa yang sangat baik dalam memprediksi churn. Hal ini dapat dilihat dari nilai AUC mencapai 0.967 yang artinya bahwa model ini memiliki kemampuan yang baik dalam membedakan pelanggan yang berpotensi churn dan tidak.
+ Model SVM menunjukkan performa yang sangat baik dalam memprediksi churn. Hal ini dapat dilihat dari nilai AUC mencapai 0.967 yang artinya bahwa model ini memiliki kemampuan yang baik dalam membedakan pelanggan yang berpotensi churn dan tidak.
 
 # 📊	Metode Model Diagnostic
 Berdasarkan hasil analisis feature importance pada model Support Vector Machine (SVM):
