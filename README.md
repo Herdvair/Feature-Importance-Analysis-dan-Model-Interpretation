@@ -5,7 +5,7 @@
 Proyek ini berfokus pada analisis interpretabilitas model machine learning untuk kasus prediksi churn pelanggan.
 Beberapa aspek utama yang dibahas mencakup:
 1. Feature importance menggunakan beberapa algoritma interpretasi model.
-2. Analisis kontribusi fitur dengan SHAP dan LIME.
+2. Analisis kontribusi fitur dengan SHAP.
 3. Pembuatan model baseline untuk melihat performa seluruh model hingga pemilihan model yang terbaik untuk analisis lebih lanjut
 4. Visualisasi hasil interpretasi model untuk mendukung pengambilan keputusan bisnis.
 
